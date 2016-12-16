@@ -1,0 +1,43 @@
+// header.scss
+
+header{
+  width:100%;
+  background-color:$defaultbackground;
+  color:$defaultcolor;
+  margin:0;
+  padding:0;
+  position:fixed;
+  z-index:10;
+
+  h1 {
+    padding-left:2em;
+    font-size:$titlefont;
+    margin-bottom:0;
+   }
+
+   h2 {
+     padding-left:7em;
+   }
+
+   .top-menu{
+     font-size:1.5em;
+     list-style:none;
+     float:right;
+
+     li {
+       display:inline-block;
+       margin-right:2em;
+     }
+    }
+
+    a {
+      color:$defaultcolor;
+      font-size:$linkSize;
+
+      &:hover{
+        color:$hovercolor;
+      }
+    }
+
+
+ }

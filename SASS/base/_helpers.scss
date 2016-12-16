@@ -1,0 +1,19 @@
+ //CSS helper classes
+
+ .wrapper {
+   position:relative;
+ }
+
+ .content {
+   position:absolute;
+   right:0;
+   left:0;
+   padding:0;
+   margin:0;
+   background-color:$defaultbackground;
+ }
+
+ body{
+   padding:0;
+   margin:0;
+ }

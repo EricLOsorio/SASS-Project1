@@ -1,0 +1,26 @@
+//Images images.scss
+
+.topImage{
+  position:relative;
+  height:40em;
+  margin-top:17em;
+
+  img{
+    height:100%;
+    width:100%;
+  }
+
+  #topQuote{
+    position:relative;
+    top:-7em;
+    color:red;
+    font-size:$largefont;
+    z-index:5;
+
+    span {
+      font-size:0.5em;
+      margin-left:20em;
+    }
+  }
+	
+}

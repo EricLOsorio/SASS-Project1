@@ -1,0 +1,18 @@
+//about page global settings
+
+div[class="main-about"]{
+  margin-top:1em;
+  padding:5em;
+  background-color:#303030 ;
+  color:$defaultcolor;
+  font-size:$largefont;
+
+  .title{
+    margin-left:20em;
+  }
+
+  p {
+
+    margin:auto;
+  }
+}

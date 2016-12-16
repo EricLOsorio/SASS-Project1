@@ -1,0 +1,17 @@
+// main content 
+
+.list{
+  list-style:none;
+  a {
+    font-size:3em;
+    color:skyblue;
+
+    &:hover{
+      color:$hovercolor;
+    }
+  }
+
+  li {
+    text-align:center;
+  }
+}
